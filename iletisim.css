@@ -1,0 +1,53 @@
+.formgrup{
+    padding: 0.25rem;
+}
+.formgrup label{
+    display: block;
+}
+#contact .contactform{
+    color: black;
+    padding: 1rem;
+}
+#contact .contactform{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.formkontrol{
+    width: 100%;
+    padding:8px;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+#contact .contactform  ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contactform  ul li a{
+    padding: 10px;
+    font-size: 2rem;
+}
+.buton{
+    margin-top: 1rem;
+    background-color: crimson;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.buton:hover{
+    background-color: red;
+    transition: background 2s;
+}
+.googlemap{
+    margin-top: 50px;
+    width: 100%;
+}

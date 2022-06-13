@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        
+       <div class="duyuruacıklama">Popup Aç</div> 
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="kapat">&times;</span>
+            <p>Popup İçerik Alanı</p>
+            <p><a href="http://webinyo.com/">Webinyo.COM</a></p>
+          </div>
+        </div>
+        <script>
+// Popup Al
+var modal = document.getElementById('myModal');
+
+// Kipi açan düğmeyi al
+var btn = document.getElementById("duyuruacıklama");
+
+// Kipi kapatan <span> öğesini edinin
+var span = document.getElementsByClassName("kapat")[0];
+
+// Kullanıcı düğmeyi tıklattığında
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Kullanıcı <span> (x) düğmesini tıkladığında, popup
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+    </body>
+</html>
+

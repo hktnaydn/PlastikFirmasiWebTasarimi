@@ -1,0 +1,16 @@
+#yonetim #yonetimliste ul li a{
+    display: block;
+
+    color: white;
+    position: relative;
+}
+
+#yonetim #yonetimliste .liste{
+    display: flex;
+}
+#yonetim #yonetimliste ul li a>.info{
+    position: absolute;
+    left: 30px;
+    top:270px;
+    font-size: 24px;
+}

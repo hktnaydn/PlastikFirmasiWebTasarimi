@@ -1,0 +1,395 @@
+
+html{
+    font-family: 'Exo 2', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    height: auto;
+    color: #484848;
+    
+}
+
+
+#navbar{
+   
+    display: flex;
+    background-color: white;
+    color:black;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 3rem;
+    height: 75px;
+
+}
+#navbar >ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar >ul >li{
+    position: relative;
+}
+#navbar ul ul{
+    opacity: 0;
+    visibility:hidden;
+    transition: 350ms all;
+    width: 140px;
+    background-color: #fff;
+    z-index: 999;
+    position: absolute;
+    top: 37px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+
+}
+#navbar ul ul li a{
+    display: block;
+    padding:10px;
+
+}
+#navbar ul ul li a:hover{
+    background-color: #dc3545;
+  transition: background 1s, border-radius 1s;
+}
+#navbar >ul >li >a{
+    padding: 1rem;
+    font-weight: bold;
+    padding: 28px;;
+
+}
+#navbar >ul >li >a:hover{
+   
+    background-color: #dc3545;  transition: background 1s;
+
+
+}
+#navbar >ul >li:hover ul{
+opacity: 1;
+visibility: visible;
+top:47px;
+
+
+}
+#navbar img{
+    height: 100%;
+}
+header .altkırmızıhat{
+    bottom:0px;
+    height: 4px;
+    background-color: #dc3545;
+}
+header #ustkırmızıhat{
+    top:0px;
+    height: 4px;
+    background-color: #dc3545;
+}
+#slider{
+   
+    height: 380px;
+    background-color:white;    
+}
+#info{
+    margin-top: 4px;
+    height: auto;
+    background-color: white;
+}
+#info h1{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: 'Exo 2', sans-serif;
+        text-align: center;
+    color:#dc3545 ;
+}
+#info p{
+    margin:0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 75%;
+    font-size: 1.1rem;
+}
+#info .altkırmızıhat{
+    width: 50%;
+    margin:0 auto;
+    margin-bottom: 10px;
+    height: 4px;
+    background-color: #dc3545;
+}
+#duyurular{
+    
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    color:#333;
+    padding: 1rem;
+   
+}
+#duyurular .altkırmızıhat{
+    margin-top: 10px;
+    top:0px;
+    height: 4px;
+    background-color: #dc3545;
+}
+
+section h1{
+
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Exo 2', sans-serif;
+        text-align: center;
+    color:#dc3545 ;
+}
+.duyurular{
+justify-content: space-between;   
+ display: flex;
+ flex-wrap: wrap;
+    padding: 1rem;
+    border: 5px solid #dc3545;
+    padding-bottom: 3rem;
+  
+}
+.duyurular .duyuru{
+ width: 20%;
+ text-align: center;
+ border-right: #484848 2px solid;
+ border-bottom: #484848 4px solid;
+ 
+}
+
+.duyurular .duyuru .duyurubaslik{
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.duyurular .duyuru .duyuruicerik{
+  
+    margin-bottom: 0.3rem;
+}
+#dahafazla{
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom:-5px;
+    right: 50px;
+}
+footer{
+   
+    margin-top: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px dotted #dc3545;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "exo2 regular",sans-serif;
+}
+footer #footer-content{
+    width: 1188px;
+    margin:0 auto;
+    display: flex;
+}
+footer #footer-content #footercolfirst{
+    width: 50%;
+    height: 350px;
+    background-color: #fff;
+    padding-top: 2.5rem;
+    padding-left: 0.5rem;
+    
+    
+}
+footer #footer-content .footercol{
+    width: 25%;
+    height: 350px;
+    background-color: #fff;
+    padding-top: 2.5rem;
+    padding-left: 0.5rem;
+    
+    
+}
+footer #footer-content .footercol .footerbaslik{
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.8px;
+    letter-spacing: -0.18px;
+    margin-bottom: 2rem;
+    font-family: 'Poppins';
+    text-align: left;
+
+}
+footer #footer-content .footercol ul {
+    list-style-type: none;
+    
+}
+footer #footer-content .footercol ul li a{
+    
+    color: #666;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26.04px;
+    letter-spacing: -0.18px;
+    margin-bottom: 2rem;
+    font-family: 'Poppins';
+    text-align: left;
+
+}
+#altbilgi{
+    height:30px;
+    background-color: #dc3545;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+@keyframes animasyon {
+    0% {
+      opacity: 0;
+     
+    }
+  
+    100% {
+       
+      opacity: 1;
+    }
+  }
+  .animationslider{
+    animation-name: animasyon;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+@keyframes headeranim {
+    0% {
+      top:-50px;
+      opacity: 0;
+     
+    }
+  
+    100% {
+       
+      top: 0px;
+      opacity: 1;
+    }
+  }
+  .animationheader{
+    animation-name: headeranim;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+#navbar >ul >li:hover ul li .lasta{
+    border-radius: 0 0 10px 10px;
+}
+@keyframes urunkategori {
+    0% {
+      
+      opacity: 0;
+    
+     
+    }
+  
+    100% {
+       
+      
+      opacity: 1;
+    }
+  }
+  .animationkategori{
+    animation-name: urunkategori;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+@keyframes urunisim {
+    0% {
+      
+     top:659px;
+     
+     
+    }
+  
+    100% {
+       top:589px;
+        left:340px;
+      
+    }
+  }
+  .urunbaslikanim{
+    animation-name: urunisim;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    position:absolute;
+    left:340px;
+}
+@keyframes urunpetg {
+    0% {
+      
+     top:659px;
+     
+     
+    }
+  
+    100% {
+       top:589px;
+        left:420px;
+      
+    }
+  }
+  .urunpetg{
+    animation-name: urunpetg;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    position:absolute;
+    left:420px;
+}
+@keyframes urunsolid {
+    0% {
+      
+     top:659px;
+     
+     
+    }
+  
+    100% {
+       top:589px;
+        left:300px;
+      
+    }
+  }
+  .urunsolid{
+    animation-name: urunsolid;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    position:absolute;
+    left:300px;
+}

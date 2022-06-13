@@ -1,0 +1,21 @@
+@keyframes arge {
+    0% {
+      
+      opacity: 0.1;
+     
+    }
+  
+    100% {
+       
+      
+      opacity: 1;
+    }
+  }
+  .arge{
+    animation-name: arge;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
